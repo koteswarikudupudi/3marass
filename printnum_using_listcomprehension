@@ -1,0 +1,7 @@
+#to print 10 to 1 using list comprehension
+n=int(input('enter number:'))
+num=[]
+num=[x for x in range(n,0,-1)]
+for i in num:
+    print(i)
+print(num)
